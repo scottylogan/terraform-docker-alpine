@@ -9,7 +9,7 @@ RUN adduser -h /home/terraform -g 'Terraform User' -s /bin/bash -D terraform
 RUN apk update && apk upgrade
 
 # Add tools needed for Terraform, and something other than /bin/sh
-RUN apk add bash curl git git-bash-completion groff jq ncurses python3 openssh-client unzip
+RUN apk add bash curl git git-bash-completion groff jq ncurses py3-pip openssh-client unzip
 
 # Upgrade pip (if needed) and install the AWS CLI
 RUN pip3 install --upgrade pip && \
