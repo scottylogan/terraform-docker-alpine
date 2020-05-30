@@ -1,5 +1,11 @@
 # Alpine Terraform Docker Image
 
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/scottylogan/terraform)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/scottylogan/terraform)
+![Docker Pulls](https://img.shields.io/docker/pulls/scottylogan/terraform)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/scottylogan/terraform/latest)
+![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/scottylogan/terraform/latest)
+
 `Dockerfile` to build a Docker image for running Terraform
 
 ## Building the Image
